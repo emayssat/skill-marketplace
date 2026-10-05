@@ -15,7 +15,7 @@ claude plugin marketplace add emayssat/skill-marketplace
 | Plugin | Description |
 |--------|-------------|
 | `hello-world` | Minimal dummy skill to verify marketplace installation works |
-| `six-thinking-hats` | Edward de Bono's Six Thinking Hats for structured parallel thinking |
+| `six-hats` | Edward de Bono's Six Hats for structured parallel thinking |
 | `storyboard` | Produce and review storyboards with a full crew and audience persona system |
 
 ## Install a Plugin

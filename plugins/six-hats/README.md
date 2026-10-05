@@ -1,6 +1,6 @@
-# six-thinking-hats
+# six-hats
 
-Edward de Bono's Six Thinking Hats framework as a Claude Code skill. Facilitates structured parallel thinking sessions for decisions, problem-solving, brainstorming, and more.
+Edward de Bono's Six Hats framework as a Claude Code skill. Facilitates structured parallel thinking sessions for decisions, problem-solving, brainstorming, and more.
 
 ## Skills
 
@@ -10,7 +10,7 @@ Edward de Bono's Six Thinking Hats framework as a Claude Code skill. Facilitates
 
 ```bash
 claude plugin marketplace add emayssat/skill-marketplace
-claude plugin install six-thinking-hats@skill-marketplace
+claude plugin install six-hats@skill-marketplace
 ```
 
 ## Usage

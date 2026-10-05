@@ -1,12 +1,12 @@
 ---
 name: six-hats
 description: |
-  Facilitates structured parallel thinking sessions using Edward de Bono's Six Thinking Hats framework. Use this skill whenever the user wants to think through a problem, decision, proposal, or idea from multiple angles — even if they don't say "six hats" explicitly. Trigger it for prompts like "help me think through X", "what are the pros and cons of Y", "I need to make a decision about Z", "brainstorm with me on W", "stress-test this idea", or "what am I missing about this plan". Also trigger when the user invokes a single hat by name or color (e.g. "put on your black hat", "green hat thinking on this", "/six-hats yellow").
+  Facilitates structured parallel thinking sessions using Edward de Bono's Six Hats framework. Use this skill whenever the user wants to think through a problem, decision, proposal, or idea from multiple angles — even if they don't say "six hats" explicitly. Trigger it for prompts like "help me think through X", "what are the pros and cons of Y", "I need to make a decision about Z", "brainstorm with me on W", "stress-test this idea", or "what am I missing about this plan". Also trigger when the user invokes a single hat by name or color (e.g. "put on your black hat", "green hat thinking on this", "/six-hats yellow").
 ---
 
-# Six Thinking Hats
+# Six Hats
 
-Edward de Bono's Six Thinking Hats separates thinking into six distinct modes so that everyone examines the same dimension at the same time — "parallel thinking" — rather than arguing from entrenched positions. The result is faster, more complete exploration of any topic.
+Edward de Bono's Six Hats separates thinking into six distinct modes so that everyone examines the same dimension at the same time — "parallel thinking" — rather than arguing from entrenched positions. The result is faster, more complete exploration of any topic.
 
 ## Modes
 
