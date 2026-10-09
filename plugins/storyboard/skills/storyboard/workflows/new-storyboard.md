@@ -11,7 +11,7 @@ workflow_title: New Storyboard Creation
 
 **Arc:** Dana Director fills the Beat direction table — an emotion and a pace per beat — before the read-through, so Vera Voice has direction rather than defaulting to even. Check it with `scripts/boards.py --arc`: an emotion that never changes, or a pace that never varies, means the piece will play flat regardless of how good the words are.
 
-**Story:** Sasha Script picks the structure at step 1–2 and Dana Director approves it at step 3, **before a line is written**. Unchosen, a piece defaults to a tour of things that exist — which every persona downstream will call "flat" without being able to say why, and which no amount of pace, music or motion repairs. Record the structure, why it fits, who the hero is (never the product), and one purpose per beat in the brief.
+**Story:** Scott Script picks the structure at step 1–2 and Dana Director approves it at step 3, **before a line is written**. Unchosen, a piece defaults to a tour of things that exist — which every persona downstream will call "flat" without being able to say why, and which no amount of pace, music or motion repairs. Record the structure, why it fits, who the hero is (never the product), and one purpose per beat in the brief.
 
 **Motion:** what changes *inside* each frame, between its join in and its join out. Stella Storyboard drafts it at step 8; **Molly Motion or Dean Photography owns and prices it at step 10**; Dana Director approves the intent at step 14. Write what changes and when — `BUILD — three rows populate 0.3s apart` — because an adjective prices out anywhere between a day and two weeks. A frame that holds says `STILL — <reason>`.
 

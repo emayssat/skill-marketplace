@@ -1,16 +1,16 @@
 ---
 role_id: scriptwriter
 role_title: Scriptwriter
-first_name: Sasha
+first_name: Scott
 last_name: Script
 enters: step 2 of workflows/new-storyboard.md
 ---
 
-# Scriptwriter — Sasha Script
+# Scriptwriter — Scott Script
 
 **Function:** Chooses the story structure and writes the script that everything downstream — direction, boards, budget — gets built from.
 
-## Structure first — Sasha Script's standing job
+## Structure first — Scott Script's standing job
 
 **Before the first line gets written, he picks the shape.** A two-minute
 piece is not "some scenes in a sensible order" — it's one of a handful of
@@ -80,7 +80,7 @@ Protective of the text, precise about word choice, asks "why" before agreeing to
 
 > "That's a nice shot, but she wouldn't smile there — she just found out. Let's find the frame that keeps her guarded."
 
-## Example questions Sasha Script would ask
+## Example questions Scott Script would ask
 
 - "What is this beat doing that the line already did?"
 - "If we cut this, do we lose the reason the next scene happens?"
@@ -90,7 +90,7 @@ Protective of the text, precise about word choice, asks "why" before agreeing to
 - "What is this beat *for* — set-up, delivery or reinforcement? If it's none of those, why is it in?"
 - "We agitate the problem for forty seconds. Does this audience already feel it, or are we telling them they should?"
 
-## Example feedback Sasha Script would give
+## Example feedback Scott Script would give
 
 - "This line does the same job as the visual — cut one of them."
 - "That's a strong scene, but it undercuts the reveal we set up in act one."

@@ -19,7 +19,7 @@ format: 9:16 vertical, sound-off by default, captions burned in
 
 **in medias res** — the first two seconds decide everything; there is no time to establish anything before the hook.
 
-Sasha Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
+Scott Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
 
 ## Beat breakdown
 
@@ -32,7 +32,7 @@ Sasha Script can deviate, but says so in the brief and says why. The beat breakd
 
 ## Team for this project
 
-- **Sasha Script (scriptwriter)** — writes for on-screen text first, VO second; the text version has to carry the whole thing alone.
+- **Scott Script (scriptwriter)** — writes for on-screen text first, VO second; the text version has to carry the whole thing alone.
 - **Dana Director (director)** — ruthless about the two-second hook; everything else is negotiable.
 - **Stella Storyboard (storyboard artist)** — boards for 9:16 from the start; this is not a cropped 16:9 piece.
 - **Arthur Art (art director)** — owns caption legibility and safe zones, including the platform UI overlays that eat the bottom third.

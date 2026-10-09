@@ -129,7 +129,7 @@ updated: {{YYYY-MM-DD}}
 
 | Worker persona | Covered by |
 |---|---|
-| Sasha Script (scriptwriter) | {{name or "Claude"}} |
+| Scott Script (scriptwriter) | {{name or "Claude"}} |
 | Dana Director (director) | {{...}} |
 | Paul Producer (producer) | {{...}} |
 

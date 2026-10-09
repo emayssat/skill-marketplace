@@ -39,7 +39,7 @@ format: {{e.g. "16:9 concept video, motion graphics + VO" or "live action"}}
 
 ## Story structure (default)
 
-<!-- Which shape this format usually takes, and why. Sasha Script can
+<!-- Which shape this format usually takes, and why. Scott Script can
      deviate per piece but has to say so in the brief. The beat breakdown
      below should be this structure's stages, named for this format — if
      the two don't line up, one of them is wrong.

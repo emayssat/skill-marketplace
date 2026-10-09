@@ -1,7 +1,7 @@
 <!--
 SCRIPT TEMPLATE — storyboard
 
-Sasha Script's artifact. Copy to <production>/script.md.
+Scott Script's artifact. Copy to <production>/script.md.
 
 The production folder lives in your own working folder, NEVER inside the
 skill — the skill ships only this stencil.

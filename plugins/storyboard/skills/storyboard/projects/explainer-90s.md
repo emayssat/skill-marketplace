@@ -19,7 +19,7 @@ format: 16:9, motion graphics + UI capture + voiceover
 
 **question → answer** — an explainer's audience arrives with the question already formed, and resents being sold to on the way to the answer.
 
-Sasha Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
+Scott Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
 
 ## Beat breakdown
 
@@ -33,7 +33,7 @@ Sasha Script can deviate, but says so in the brief and says why. The beat breakd
 
 ## Team for this project
 
-- **Sasha Script (scriptwriter)** — carries this format; explainers live or die on the script's ordering of ideas.
+- **Scott Script (scriptwriter)** — carries this format; explainers live or die on the script's ordering of ideas.
 - **Vera Voice (voice talent)** — heavier than usual: explainer VO is dense, and read-time overrun is the standard failure.
 - **Dana Director (director)** — guards against the pitch creeping in, especially in the last 25 seconds.
 - **Arthur Art (art director)** — owns visual consistency of the metaphor; a diagram that changes its own visual rules mid-explanation undoes the explanation.

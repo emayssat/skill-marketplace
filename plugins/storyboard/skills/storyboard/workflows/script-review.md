@@ -13,7 +13,7 @@ Deliberately much lighter than **New Storyboard Creation**. If it passes, pick t
 
 **Arc:** the other thing to catch here. Ask whether the emotion is *supposed* to change beat to beat, and whether the writing gives a performer anywhere to go — uniform sentence length and hedged clauses read fine silently and drone aloud. Flat writing is a script finding, not a delivery problem.
 
-**Story:** the cheapest place in the whole skill to catch a structure problem, and the only place where fixing it costs a rewrite rather than a reshoot. Sasha Script names the structure and the purpose of each beat; then read the purposes top to bottom. Three beats with the same purpose is one beat. A promised stage that never arrives — a journey with no threshold, a before-after with no bridge — is why a finished piece feels unsatisfying while every frame looks fine.
+**Story:** the cheapest place in the whole skill to catch a structure problem, and the only place where fixing it costs a rewrite rather than a reshoot. Scott Script names the structure and the purpose of each beat; then read the purposes top to bottom. Three beats with the same purpose is one beat. A promised stage that never arrives — a journey with no threshold, a before-after with no bridge — is why a finished piece feels unsatisfying while every frame looks fine.
 
 **Pace:** this is the cheapest place to catch density. Report wpm per beat, not for the piece, and give all three options — cut words, stretch the beat, or change the target — because at script stage every one of them is still free.
 

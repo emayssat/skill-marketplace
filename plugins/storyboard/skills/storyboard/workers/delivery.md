@@ -109,6 +109,7 @@ routing note is frame-accurate. He reads the cards and sorts them:
 |---|---|---|
 | A room, a person, a place — anything photographic | Higgsfield, or real footage | You can't write a photograph in CSS |
 | Typography, a UI, a chart, a diagram, a lockup, a title card | **HyperFrames** | It's markup. The text is typeset instead of hallucinated, the brand values are exact instead of nudged, and the render is deterministic |
+| A slide deck, a presentation, or a walkthrough | **Reveal.js** | Also markup — each frame card maps directly to a browser slide. Text cell is the body; VO is speaker notes. No generation, no API key, self-contained HTML |
 | A real person speaking | Their own recording | Always |
 | Synthesized narration | ElevenLabs | — |
 
@@ -162,6 +163,7 @@ Dex Delivery has actual scripts, not just a process — see `scripts/`:
 - `scripts/boards.py` parses a frozen `boards.md` into normalized frames and builds the per-frame prompt, expanding shot codes into language a model understands ("MCU PUSH IN" → "medium close-up, camera pushing in").
 - `scripts/send_higgsfield.py` submits one request per frame to the Higgsfield API, polls to completion, and writes the run manifest.
 - `scripts/send_elevenlabs.py` renders the VO per speaking frame — mapping each speaker to its voice, carrying prosody across frame boundaries, and refusing to render an uncleared real voice.
+- `scripts/build_revealjs.py` emits a self-contained Reveal.js HTML file from the boards. Each deliverable frame becomes a slide; Text cell → slide body; VO cell → speaker notes; Trans vocabulary → Reveal.js transitions. Reads brand colours from `brand-guardrails.md` when supplied with `--brand`. Dry run by default; `--out` writes the file.
 - `scripts/README.md` covers adding an adapter for another service.
 
 He runs a dry run first, always. The prompts *are* the deliverable, and they're cheaper to read than to regenerate.

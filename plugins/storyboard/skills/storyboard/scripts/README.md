@@ -9,6 +9,7 @@ only.
 | `boards.py` | Parses `boards.md` into normalized frame cards and standing notes. The shared core: every service is fed from this one parser, so they all get the same frozen source. Also runs standalone to inspect what a boards file actually contains. |
 | `send_higgsfield.py` | Submits one generation request per frame to the Higgsfield API, polls to completion, writes a run manifest. |
 | `send_elevenlabs.py` | Renders the voiceover per speaking frame with ElevenLabs — maps each speaker to its voice, carries prosody across frames, writes audio files plus a manifest. |
+| `build_revealjs.py` | Emits a self-contained Reveal.js HTML presentation from a frozen `boards.md`. Each deliverable frame becomes a slide; the Text cell is the slide body; the VO cell becomes speaker notes. Brand palette loaded from `--brand brand-guardrails.md`. No API key, no per-render cost. Dry run by default; `--out` writes the file. |
 
 Which service to use for which job, and when that was last verified, is in
 `reference/services.md`. Dex Delivery recommends; Paul Producer decides

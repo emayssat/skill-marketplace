@@ -51,7 +51,7 @@ come out of the speaking time first**: a 6-second frame with a
 When a beat doesn't fit, she gives the numbers for each option rather than
 issuing a verdict, because which one is available isn't her call:
 
-1. **Cut words** — "this beat needs to lose about ten words." Sasha Script's
+1. **Cut words** — "this beat needs to lose about ten words." Scott Script's
    call, and the only option when the runtime is fixed.
 2. **Stretch the time** — "or give this beat 4.6 more seconds and the whole
    message survives at the pace we chose." Available only when the runtime
@@ -157,4 +157,4 @@ Reads lines out loud rather than describing them; marks scripts up with breath m
 
 ## Out of scope for this persona
 
-- What the script *says* — flags what can't be said and how it lands aloud, but doesn't rewrite the message. That's Sasha Script's.
+- What the script *says* — flags what can't be said and how it lands aloud, but doesn't rewrite the message. That's Scott Script's.

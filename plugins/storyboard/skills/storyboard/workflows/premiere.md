@@ -60,7 +60,7 @@ What gets frozen is the **frame cards** — and they are about to be read litera
 A no-go at step 9 is a real outcome, not a failure state to route around. Record it in the round file with the reason, then branch by what broke:
 
 - **Access failure that couldn't be cleared at step 5** → fix and re-run this workflow from step 4. Do not release on a promise to fix captions afterward.
-- **Legal blocker at step 8** → back to Sasha Script for the claim, or to Sonny Sound for an unlicensed track. A claim that can't be substantiated gets cut, not softened into a vaguer version of the same claim.
+- **Legal blocker at step 8** → back to Scott Script for the claim, or to Sonny Sound for an unlicensed track. A claim that can't be substantiated gets cut, not softened into a vaguer version of the same claim.
 - **Structural story problem** → this isn't a premiere fix. Branch to **Remake** (if the content is stale) or **New Storyboard Creation** (if the arc itself is wrong), and come back when there's a new cut.
 - **Runtime or format wrong for the channel** → branch to **Time Reduction** or **Platform Adaptation**, then re-premiere.
 - **Shipping anyway with a known flaw** → a legitimate producer call under deadline, but name the flaw in the round record and say who accepted it. An undocumented known flaw becomes a surprise for whoever inherits this piece.

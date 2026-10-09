@@ -33,14 +33,14 @@ A finding is a symptom, not an assignment. "I lost the thread at the halfway poi
 
 | What the panel said | Who owns the fix | Who does *not* |
 |---|---|---|
-| "I didn't understand what it does" | **Sasha Script** — the message isn't in the words | not the artist; a clearer picture won't rescue an unclear claim |
-| "I couldn't keep up" / "it went too fast" | **Dana Director** decides the beat's pace, **Sasha Script** cuts words or **Ed Edit** stretches time | not Vera Voice — she reports pace, she doesn't set it |
+| "I didn't understand what it does" | **Scott Script** — the message isn't in the words | not the artist; a clearer picture won't rescue an unclear claim |
+| "I couldn't keep up" / "it went too fast" | **Dana Director** decides the beat's pace, **Scott Script** cuts words or **Ed Edit** stretches time | not Vera Voice — she reports pace, she doesn't set it |
 | "I lost track of where I was" | **Stella Storyboard** — frame order or visual continuity | — |
 | "I read the text too late" | **Arthur Art** — on-screen text budget and hold time | — |
 | "The music told me how to feel" | **Sonny Sound** — including the option of no music | — |
 | "It dragged" / "it felt long" | **Ed Edit** — runtime, dead air, held frames | — |
-| "It felt like an ad" / "I didn't believe it" | **Sasha Script** and **Dana Director** — claim and tone together | not legal; an unbelievable claim is a writing problem before it's a compliance one |
-| "That claim can't be right" | **Logan Legal** substantiates, then **Sasha Script** rewrites or cuts | — |
+| "It felt like an ad" / "I didn't believe it" | **Scott Script** and **Dana Director** — claim and tone together | not legal; an unbelievable claim is a writing problem before it's a compliance one |
+| "That claim can't be right" | **Logan Legal** substantiates, then **Scott Script** rewrites or cuts | — |
 | "The captions were unreadable" | **Arthur Art** (legibility) + **Ed Edit** (timing) | — |
 | "I got nothing from that stretch" (from Blair Blind) | **Sonny Sound** — audio description or audio on a silent frame | — |
 | "This isn't what we briefed" | **Paul Producer** — back to the brief, possibly a different workflow | not a fix step at all |
@@ -69,7 +69,7 @@ Record the chosen panel in the production's `brief.md` so the same personas can 
 | 4 | *audience panel* | Each persona watches cold and reacts in character, using their own questions, feedback, and drop-off triggers — Paul Producer facilitating, Ed Edit running the cut, no other crew present | Per-persona reactions |
 | 5 | director | Triage the reactions — separate real problems from a persona reacting outside this project's target — **and route each accepted finding to the worker who owns that fix** (see the routing table above) | Triaged findings, each with a named owner |
 | 6 | producer | Confirm the routed fix list is affordable and schedulable this round; send anything that isn't back as scope | Agreed fix list |
-| 7 | *routed workers only* | Each named worker makes their own fix — Sasha Script the copy, Stella Storyboard the frames, Arthur Art the text and legibility, Sonny Sound the music and mix. A worker with no routed finding does nothing this round | Fixes, per owner |
+| 7 | *routed workers only* | Each named worker makes their own fix — Scott Script the copy, Stella Storyboard the frames, Arthur Art the text and legibility, Sonny Sound the music and mix. A worker with no routed finding does nothing this round | Fixes, per owner |
 | 8 | editor | Re-cut with the accepted changes and re-screen to the same panel if anything structural moved | Revised cut (re-screened if needed) |
 | 9 | producer | Decide: ready for **Premiere**, or does this need another preview round? | Go / another round |
 

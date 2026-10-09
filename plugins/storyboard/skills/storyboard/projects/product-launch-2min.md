@@ -19,7 +19,7 @@ format: 16:9, mix of live action / screen capture + voiceover, ships with launch
 
 **problem → agitate → solve** — the audience already feels the pain, so naming it buys credibility before the product appears.
 
-Sasha Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
+Scott Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
 
 ## Beat breakdown
 

@@ -82,7 +82,7 @@ outcome: {{revise | proceed | go | no-go}}
 
 | Finding | Frame(s) | Owner | Change |
 |---|---|---|---|
-| {{Message unclear before the cut}} | {{9–11}} | {{Sasha Script}} | {{Add explicit value line}} |
+| {{Message unclear before the cut}} | {{9–11}} | {{Scott Script}} | {{Add explicit value line}} |
 
 **Dismissed — not changing:**
 

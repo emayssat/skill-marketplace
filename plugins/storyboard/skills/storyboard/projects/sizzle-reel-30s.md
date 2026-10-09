@@ -48,7 +48,7 @@ accident. The difference is the curve: a tour shows five equal things in a
 row, a sizzle makes each stretch bigger than the last. If the piece would
 survive having its shots reordered, it has no escalation and it is a tour.
 
-Sasha Script can deviate, but says so in the brief and says why.
+Scott Script can deviate, but says so in the brief and says why.
 
 ## The track comes first
 
@@ -86,7 +86,7 @@ and at a sizzle's usual turnaround it is also the easiest one to commit.
 - **Arthur Art (art director)** — grade consistency across sources that were never meant to sit together, plus text treatment and legibility at 1–2 second holds.
 - **Logan Legal (legal reviewer)** — **elevated in this format.** Every clip, every recognizable face, every third-party or customer logo, and the music licence. More sizzles are blocked at the last minute on rights than on craft.
 - **Paul Producer (producer)** — sourcing and rights admin is the bulk of the work here, not scheduling. Also owns whether the footage that exists can carry the piece at all.
-- **Sasha Script (scriptwriter)** — light but not absent: writes the on-screen text and the single claim at the peak, and is the one who says when a sizzle is trying to explain something.
+- **Scott Script (scriptwriter)** — light but not absent: writes the on-screen text and the single claim at the peak, and is the one who says when a sizzle is trying to explain something.
 - **Molly Motion (motion lead)** — usually light — lockup, text treatments, occasionally a transition build. Worth asking Dex Delivery whether those are better rendered as code than hand-built; see `reference/services.md`.
 - **Dean Photography (DP)** — usually **absent**. Nothing is shot. If there is a shoot day it is for pickups to fill a hole the archive can't.
 - **Vera Voice (voice talent)** — often absent. Brought in only if there is VO, and then for one or two lines.

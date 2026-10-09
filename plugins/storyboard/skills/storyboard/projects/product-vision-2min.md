@@ -19,7 +19,7 @@ format: 16:9 concept video, motion graphics + UI mockups + voiceover
 
 **before → after → bridge** — a vision piece has to make the new world credible *and* say how anyone reaches it; the bridge beat is the one most often dropped.
 
-Sasha Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
+Scott Script can deviate, but says so in the brief and says why. The beat breakdown below is this structure's stages named for this format; changing the structure changes the beats.
 
 ## Beat breakdown
 

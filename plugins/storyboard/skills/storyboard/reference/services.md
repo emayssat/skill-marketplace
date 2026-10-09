@@ -33,6 +33,7 @@ An internally-approved vendor beats a better tool nobody is allowed to buy.
 | **Voice / VO** | **ElevenLabs** | Current default for synthesized narration and character voices. Multi-voice, voice cloning, and prosody continuity across separately-rendered lines. | `scripts/send_elevenlabs.py` | 2026-09-21 against elevenlabs.io/docs |
 | **Video / image generation** | Higgsfield | One authenticated API over many models, async with polling or webhooks. Model endpoints are model-specific — discover them in the console. | `scripts/send_higgsfield.py` | 2026-09-21 against docs.higgsfield.ai |
 | **Typographic / UI / data frames** | **HyperFrames** | Compositions are HTML + CSS with seekable animation, rendered frame-by-frame in headless Chrome and encoded with FFmpeg — so output is **deterministic** and text is actually typeset rather than hallucinated. Apache 2.0, no per-render fee. | none yet — see below | 2026-09-23 against github.com/heygen-com/hyperframes and hyperframes.heygen.com |
+| **Slide decks / presentations** | **Reveal.js** | Each frame card becomes a browser slide. Text cell is the slide body; VO cell becomes speaker notes. Brand palette from `brand-guardrails.md`, transitions mapped from the Trans vocabulary. No API key, no per-render fee — standard library Python emits a self-contained HTML file. | `scripts/build_revealjs.py` | 2026-10-06 against revealjs.com/docs |
 | Motion graphics (hand-crafted) | After Effects, Figma, or Canva | A human motion designer still beats generative video for flat brand-style graphics — AI tools add 3D and glow to work that's meant to be flat. HyperFrames sits between this and generation: code, not a timeline, and an agent can write it. | none (human) | — |
 | Captions | {{your platform's own, or a dedicated service}} | Auto-generated captions are never final; a human check is part of the accessibility floor. | none yet | — |
 | Music | {{library or composer}} | See Sonny Sound's recommendation per piece — "no music" is often right. Licence tier must cover public distribution. | none yet | — |
@@ -97,6 +98,57 @@ Verified September 2026 against the repo and docs.
   `boards.py` and shelling out to the CLI, which is a real build rather
   than a copy of `send_higgsfield.py`. Say that plainly rather than
   implying a one-liner.
+
+## Reveal.js — practical notes
+
+Verified October 2026 against revealjs.com.
+
+- **What it is:** an open-source browser-based presentation framework. A
+  self-contained HTML file — no server, no install — that runs in any
+  browser and can be handed to anyone. MIT licence, no per-render cost.
+- **The adapter** (`scripts/build_revealjs.py`) reads a frozen `boards.md`
+  via the shared parser, maps each deliverable frame to a `<section>`, and
+  emits a single HTML file. Text cell → slide body; VO cell → speaker notes;
+  Trans vocabulary → Reveal.js transition; beat label → badge chip. Dry
+  run by default; `--out <path>` writes the file.
+- **Palette from `brand-guardrails.md`.** Pass `--brand path/to/brand-guardrails.md`
+  and the script reads hex values directly from the confirmed-values table.
+  Without it, a neutral dark default applies. No guessing; exact values or
+  nothing.
+- **Transitions map onto the Trans vocabulary:**
+
+  | Board Trans | Reveal.js |
+  |---|---|
+  | `DISSOLVE`, `FADE TO/FROM/IN/OUT` | `fade` |
+  | `WIPE` | `slide` |
+  | `BUILD` | `convex` |
+  | `WHIP` | `zoom` |
+  | `CUT`, `MATCH CUT`, `HOLD` | `none` |
+  | (blank / unknown) | default (`--transition` flag) |
+
+- **Slide layout is derived from the card:**
+
+  | Condition | Class | Layout |
+  |---|---|---|
+  | Shot code is `TITLE` | `title-slide` | Centred large heading |
+  | Text ≤ 8 words, no bullets/colons | `section-slide` | Centred heading |
+  | Everything else | `content-slide` | Left-aligned, bullets and paragraphs |
+
+- **Speaker notes** are written in the VO cell and appear in Reveal.js
+  presenter mode (`S` key). They travel with the board and are never on
+  screen during the talk — exactly where they belong.
+- **Export to PDF.** Append `?print-pdf` to the URL and print via Chrome's
+  print dialog. One slide per page. Does not require Puppeteer or decktape
+  but those work too.
+- **What the adapter does NOT do:** it does not generate images, embed
+  fonts, or fetch assets. A frame whose `Text` cell is empty falls back to
+  the `Visual` cell as an italic description. Photography and generated video
+  still go to Higgsfield; typeset charts and diagrams go to HyperFrames.
+  Reveal.js is the right tool when the frame content IS text or bullets —
+  when the board is a presentation, not a film.
+- **No API key, no output-ownership question.** MIT licence, nothing
+  generated, so Logan Legal's primary check is the media embedded inside
+  the deck (images, fonts in CSS, audio if added). The HTML itself is clean.
 
 ## When to recommend something else
 

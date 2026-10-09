@@ -123,7 +123,7 @@ the diagram above and the tool can't drift apart.
 |---|---|---|---|---|
 | 1 | **#** | The permanent frame number. Insert as `11a`; a cut frame keeps its number and its row | never blank | Stella Storyboard |
 | 2 | **Speaker** | A label from Cast & voices, in caps | nobody speaks | Sonny Sound |
-| 3 | **VO / Dialogue** | The line exactly as spoken, with `*emphasis*` and `[PAUSE n]` | nobody speaks | Sasha Script |
+| 3 | **VO / Dialogue** | The line exactly as spoken, with `*emphasis*` and `[PAUSE n]` | nobody speaks | Scott Script |
 | 4 | **Visual** | What is literally in frame, in one sentence, as a still | unfilled | Stella Storyboard |
 | 5 | **Beat** | The beat of the arc this frame belongs to, matching a row in Beat direction | untraceable to the brief — a defect | Dana Director |
 | 6 | **Shot** | Composition and camera, from the shot vocabulary: `MCU PUSH IN` | not yet composed | Dana Director / Dean Photography |

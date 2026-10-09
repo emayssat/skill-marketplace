@@ -70,7 +70,7 @@ before anyone spends real production money.
   use those. Speaking as "a director in general" defeats the purpose.
 - **One persona speaks at a time, in their own voice**, and is always
   referred to by **first and last name** — "Dana Director," never "Dana"
-  or "the director." Every surname is the person's function (Sasha Script,
+  or "the director." Every surname is the person's function (Scott Script,
   Dean Photography, Skye Social, Blair Blind), so the full name tells a
   reader who is speaking and why their opinion counts, without looking
   anything up. Their example questions and feedback lines are reusable
@@ -112,7 +112,7 @@ storyboard content — how that role judges the work. Each has a first name
 that starts with the same letter as the role, so it's easy to remember who's
 who, plus example questions and feedback lines:
 
-- `scriptwriter.md` — **Sasha Script** (chooses the story structure and the purpose of each beat, then writes it)
+- `scriptwriter.md` — **Scott Script** (chooses the story structure and the purpose of each beat, then writes it)
 - `director.md` — **Dana Director** (owns the emotional arc and per-beat pace; routes feedback findings to the craft that owns each fix)
 - `voice-talent.md` — **Vera Voice** (reads the script aloud in pre-production; this is where read-time overruns get caught)
 - `storyboard-artist.md` — **Stella Storyboard**
@@ -184,7 +184,7 @@ Every persona has a two-part name, and both halves do work:
 
 - The **first name** starts with the same letter as the role — Yoan Young,
   Robert Retired, Arthur Art, Ed Edit — so the name is a memory hook.
-- The **surname is the function itself** — Sasha Script, Dean Photography,
+- The **surname is the function itself** — Scott Script, Dean Photography,
   Paul Producer, Skye Social, Soren Reliability — so the full name states
   what the person is for.
 
@@ -285,7 +285,7 @@ boards." Each production holds:
 | File | What it is | Owner |
 |---|---|---|
 | `brief.md` | This piece's goal, deviations from its project type, named audience personas, panel assignments, constraints | Paul Producer |
-| `script.md` | VO and dialogue, beat-aligned, with a read-time check against the target duration | Sasha Script |
+| `script.md` | VO and dialogue, beat-aligned, with a read-time check against the target duration | Scott Script |
 | `boards.md` | **The storyboard** — a stack of **frame cards**, each built from `templates/production/frame-card.md` (speaker, VO, visual, beat, shot, motion, on-screen text, audio, note, duration, running time, transition-out) and holding only that frame's current state, plus the **standing notes** below them: Beat direction, Transitions, On-screen text, Cast & voices, Music & silence, Animatic, Still open issues and the Revision log. The animatic is this same table with timings committed and `status: animatic-locked`. | Stella Storyboard; cast owned by Sonny Sound; revision log by Paul Producer |
 | `feedback/NN-preview.md`, `feedback/NN-premiere.md` | One record per feedback round: panel, per-persona reaction, triage, outcome — plus prediction-vs-reality after release | Paul Producer |
 | `delivery/manifest.md` | Service, model version, seed, exact prompt and settings for every generated shot and voice line — what makes the piece reproducible months later | Dex Delivery |
@@ -359,7 +359,7 @@ Two conventions matter:
   plays. The join *into* a frame is simply the previous card's Trans out,
   never written twice.
 - **Structure is chosen before anything is written, and it has an owner.**
-  **Sasha Script picks it** — hero's journey, problem-agitate-solve,
+  **Scott Script picks it** — hero's journey, problem-agitate-solve,
   before-after-bridge, situation-complication-resolution, in medias res,
   question-answer, chronological/process — says why it fits this audience
   and message, names who the hero is (**never the product**), and gives
@@ -477,7 +477,7 @@ Two conventions matter:
   apply only when nobody has chosen — a piece for largely non-native
   speakers belongs nearer 130, a social hook can sit at 165.
 - **When words don't fit the seconds, there are three fixes and Vera
-  Voice reports all of them** rather than picking: **cut words** (Sasha
+  Voice reports all of them** rather than picking: **cut words** (Scott
   Script; the only option when the runtime is fixed), **stretch the
   time** (Paul Producer approves, Ed Edit re-times — the option people
   forget, and often the right one, since a 2:10 piece that lands beats an
